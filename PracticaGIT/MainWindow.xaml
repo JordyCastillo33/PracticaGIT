@@ -1,12 +1,17 @@
-﻿<Window x:Class="PracticaGIT.MainWindow"
+﻿<Window x:Class="PruebaGIT.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PracticaGIT"
+        xmlns:local="clr-namespace:PruebaGIT"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Rojo" HorizontalAlignment="Left" Margin="182,80,0,0" VerticalAlignment="Top" Width="140" Height="74"/>
+        <Button Content="Verde" HorizontalAlignment="Left" Margin="447,80,0,0" VerticalAlignment="Top" Width="139" Height="74"/>
+        <Button Content="Blanco" HorizontalAlignment="Left" Margin="447,224,0,0" VerticalAlignment="Top" Width="139" Height="74"/>
+        <Button Content="Azul" HorizontalAlignment="Left" Margin="182,224,0,0" VerticalAlignment="Top" Width="139" Height="74"/>
+
     </Grid>
 </Window>
+
