@@ -10,29 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PracticaGIT
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para Blanco.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Blanco : Window
     {
-        public MainWindow()
+        public Blanco()
         {
             InitializeComponent();
         }
 
-        private void Blanco_Click(object sender, RoutedEventArgs e)
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            
-              Blanco blanco = new Blanco();
-              blanco.Show();
-              this.Close();
-            
-
+           
+              MainWindow mainWindow = new MainWindow();
+              mainWindow.Show();
+          
         }
     }
 }
