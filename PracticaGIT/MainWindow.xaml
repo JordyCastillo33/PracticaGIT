@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Rojo" HorizontalAlignment="Left" Margin="182,80,0,0" VerticalAlignment="Top" Width="140" Height="74"/>
-        <Button Content="Verde" HorizontalAlignment="Left" Margin="447,80,0,0" VerticalAlignment="Top" Width="139" Height="74"/>
+        <Button Content="Verde" HorizontalAlignment="Left" Margin="447,80,0,0" VerticalAlignment="Top" Width="139" Height="74" Click="Button_Click"/>
         <Button Content="Blanco" HorizontalAlignment="Left" Margin="447,224,0,0" VerticalAlignment="Top" Width="139" Height="74"/>
         <Button Content="Azul" HorizontalAlignment="Left" Margin="182,224,0,0" VerticalAlignment="Top" Width="139" Height="74"/>
 
